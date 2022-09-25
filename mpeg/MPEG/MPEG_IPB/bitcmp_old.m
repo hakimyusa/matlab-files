@@ -1,0 +1,19 @@
+function output = bitcmp_old(x, N)
+
+% maxN = 2^N-1;    % This is the max number you can represent in 4 bits
+% 
+% fmt  = 'uint32';  % You can change uint8 to uint16 or 32
+% 
+% out1 = eval(['bitcmp(',fmt,'(x)',',''',fmt,''')']);
+% 
+% out2 = eval(['bitcmp(',fmt,'(maxN)',',''',fmt,''')']);
+% 
+% output = out1 - out2;
+
+
+bx = dec2bin(x);
+pad = repmat('0', 1, N - numel(bx));
+inv = char(~([pad bx] - 48)+48);
+output = bin2dec(inv);
+
+% output - output1

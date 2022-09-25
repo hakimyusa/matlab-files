@@ -1,0 +1,15 @@
+to run program run main44
+files included
+pframecal: will do processing regarding P frames
+bframecal: will do processing regarding B frames
+Iframecal: will do processing regarding I frames
+GOP: will return Gropu of pictures to do processing
+motionEst: motion estimation for P frame
+BmotionEst: motion estimation for B frame
+MC: motion compensation
+zigzag and dezigzag.m
+pdecoder: will decode P frames
+bdecoder: will decode B frames
+Idecoder: will decode I frames
+forwardDCT: calculates DCT & quantization
+inverseDCT: calculates IDCT & inverrse quantization

@@ -1,0 +1,39 @@
+%LZW DEMO 
+
+% string to compress
+str = '^WED^WE^WEE^WEB^WET';
+
+fprintf('Input String: %s\n')
+fprintf('\n\n');
+
+% pack it
+[packed,table]=norm2lzw(uint8(str));
+
+fprintf('\n\n');
+fprintf('Output code is:'), packed;
+
+fprintf('\n\n');
+
+input('Output Table:');
+
+% print table
+
+[~ n] = size(table);
+
+for i = 1:n
+    fprintf(
+    
+end
+
+
+% unpack it
+[unpacked,table]=lzw2norm(packed);
+
+% transfor it back to char array
+unpacked = char(unpacked);
+
+% test
+isOK = strcmp(str,unpacked)
+
+% show new table elements
+strvcat(table{257:end})

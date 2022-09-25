@@ -1,0 +1,16 @@
+This is a note related to the "LZW Data Compression.htm" file that I downloaded the 10 May 2004
+from   http://www.dogma.net/markn/articles/lzw/lzw.htm   and here given offline.
+
+I have found an error in the text. The line
+
+    add OLD_CODE + CHARACTER to the translation table
+
+in figure 6 should be changed to
+
+    add translation of OLD_CODE + CHARACTER to the translation table
+
+otherwise the algorithm will not work properly.
+
+
+Best regards,
+G. Ridinò
