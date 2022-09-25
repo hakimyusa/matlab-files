@@ -4,5 +4,5 @@ Disclaimer : Tidak semua file diatas adalah milik saya, sebagian besar saya dapa
 
 File file ini sangat dibutuhkan untuk mengerjakan beberapa tugas yang berkaitan dengan MATLAB, saya harap repo ini dapat memberikan banyak manfaat
 
-- Untuk pendidikan atau tujuan pribadi saja
+Untuk pendidikan atau tujuan pribadi saja
 
